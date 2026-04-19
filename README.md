@@ -28,6 +28,7 @@ The system follows these main steps:
 
 
  **EMG Database:**
+ * https://github.com/SarahBounab/ReadEmgData
 
 ---
 
