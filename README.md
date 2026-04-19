@@ -15,10 +15,10 @@ The system follows these main steps:
 *Linear SVM was used in this project
  * Segmentation: Sliding Window with overlap
  * Feature Extraction : time-domain features (Min,Max,Std,Mean,Mean abs)
- *F eature normalization using MinMaxScaler
+ *Feature normalization using MinMaxScaler
 5. Embedded Deployment :
  * Manual implementation of SVM decision function on ESP32
- * Real-time classification 
+ * Real-time classification (A third rotation class is currently implemented using a predefined “101” pattern on Arduino; future work will replace this with a trained model using a second EMG channel)
 
 ---
 
@@ -34,7 +34,7 @@ The system follows these main steps:
 # Objectives
 
  * Develop a low-cost bionic hand prothesis
- * Enable gesture recognition for prosthetic control
+ * Enable gesture recognition for prosthetic control ( hand opening and closing and wrist rotaion) using only two classes 0 for rest 1 for contraction 
 
 ---
 
