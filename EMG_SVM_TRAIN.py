@@ -12,14 +12,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
 
-# === Parameters ===
+# Parameters 
 WINDOW_DURATION = 0.3     # seconds per window
 STEP_RATIO      = 0.75      
 STEP_DURATION   = WINDOW_DURATION * STEP_RATIO
 PURITY_THRESH   = 0.90     
 
 
-# === Load raw data ===
+#data
 df = pd.read_csv('concatenated_9v(FilteredV)_class01.csv') #change file name
 
 # assume your CSV has a 'time' column in seconds
